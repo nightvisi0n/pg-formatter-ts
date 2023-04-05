@@ -1,0 +1,24 @@
+{
+    "git": {
+        "tagName": "v${version}",
+        "commitMessage": "Release v${version}",
+        "requireCleanWorkingDir": true,
+        "requireUpstream": true,
+        "requireCommits": false,
+        "addUntrackedFiles": false,
+        "commit": true,
+        "tag": true,
+        "push": true,
+        "pushTags": true
+    },
+    "npm": {
+        "publish": true,
+        "publishPath": ".",
+        "ignoreVersion": false,
+        "tag": "latest"
+    },
+    "github": {
+        "release": true,
+        "assets": ["CHANGELOG.md", "*.tgz"]
+    }
+}

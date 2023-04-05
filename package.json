@@ -1,0 +1,21 @@
+{
+    "name": "pg-formatter-ts",
+    "version": "0.0.0",
+    "description": "A simple wrapper library for the pg_format CLI tool.",
+    "main": "dist/pgFormatter.js",
+    "types": "dist/pgFormatter.d.ts",
+    "repository": "git@github.com:nightvisi0n/pg-formatter-ts.git",
+    "author": "Julian Neureuther <dev@jneureuther.de>",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "release": "release-it",
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "@types/node": "^18.15.11",
+        "prettier": "^2.8.7",
+        "release-it": "^15.10.1",
+        "typescript": "^5.0.3"
+    }
+}

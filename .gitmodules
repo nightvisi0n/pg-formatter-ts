@@ -1,0 +1,3 @@
+[submodule "assets/pg-formatter"]
+	path = assets/pg-formatter
+	url = https://github.com/darold/pgFormatter

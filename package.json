@@ -1,7 +1,7 @@
 {
     "name": "pg-formatter-ts",
     "version": "0.1.2",
-    "description": "A simple wrapper library for the pg_format CLI tool.",
+    "description": "Format PostgreSQL SQL with ease using this TypeScript library, which provides a convenient API wrapping the pgFormatter CLI tool.",
     "main": "dist/pgFormatter.js",
     "types": "dist/pgFormatter.d.ts",
     "repository": "git@github.com:nightvisi0n/pg-formatter-ts.git",

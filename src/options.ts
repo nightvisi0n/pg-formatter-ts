@@ -1,0 +1,36 @@
+export interface PgFormatOptions {
+    anonymize?: boolean;
+    commaStart?: boolean;
+    commaBreak?: boolean;
+    config?: string;
+    wrapComment?: boolean;
+    debug?: boolean;
+    commaEnd?: boolean;
+    functionCase?: number;
+    format?: string;
+    nogrouping?: boolean;
+    help?: boolean;
+    inplace?: boolean;
+    keepNewline?: boolean;
+    noExtraLine?: boolean;
+    maxlength?: number;
+    multiline?: boolean;
+    nocomment?: boolean;
+    numbering?: boolean;
+    output?: string;
+    placeholder?: string;
+    redshift?: boolean;
+    spaces?: number;
+    separator?: string;
+    formatType?: boolean;
+    tabs?: boolean;
+    keywordCase?: number;
+    typeCase?: number;
+    version?: boolean;
+    wrapLimit?: number;
+    wrapAfter?: number;
+    noRcfile?: boolean;
+    extraFunction?: string;
+    extraKeyword?: string;
+    noSpaceFunction?: boolean;
+}

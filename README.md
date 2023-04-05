@@ -1,4 +1,4 @@
-# pg-formatter-ts [![npm](https://img.shields.io/npm/v/pg-formatter-ts.svg)](https://www.npmjs.com/package/pg-formatter-ts)
+# pg-formatter-ts [![npm](https://img.shields.io/npm/v/pg-formatter-ts.svg)](https://www.npmjs.com/package/pg-formatter-ts) [![Coverage Status](https://coveralls.io/repos/github/nightvisi0n/pg-formatter-ts/badge.svg?branch=main)](https://coveralls.io/github/nightvisi0n/pg-formatter-ts?branch=main)
 
 ![pg-formatter-ts logo](./assets/logo.png)
 

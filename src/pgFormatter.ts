@@ -1,6 +1,6 @@
 import { execFile } from "child_process";
 import { resolve as resolvePath } from "path";
-import { buildArguments, camelCaseToKebabCase } from "./utils";
+import { buildArguments } from "./utils";
 import { PgFormatOptions } from "./options";
 
 export function format(
@@ -18,7 +18,7 @@ export function format(
         const pgFormatProcess = execFile(
             "perl",
             [pgFormatBinaryPath, ...args],
-            (error, stdout, stderr) => {
+            (error, stdout) => {
                 if (error) {
                     reject(error);
                 } else {

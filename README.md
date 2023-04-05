@@ -14,9 +14,9 @@ Additionally, `pg-formatter-ts` supports all available CLI options of pgFormatte
 yarn install pg-formatter-ts
 ```
 
-### A word on the library size
+### Prerequisites
 
-Please note that the unpacked size of `pg-formatter-ts` is larger than usual (several MB) because it includes the `pgFormatter` binary for convenience.
+Ensure that `perl` is installed on your system, as `pgFormatter` relies on it. You can check if Perl is installed by running `perl -v` in your command line. If it's not installed, please visit the [Perl official website](https://www.perl.org/get.html) for installation instructions.
 
 ## Usage
 

@@ -1,6 +1,6 @@
 {
     "name": "pg-formatter-ts",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "A simple wrapper library for the pg_format CLI tool.",
     "main": "dist/pgFormatter.js",
     "types": "dist/pgFormatter.d.ts",

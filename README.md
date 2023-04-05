@@ -1,4 +1,6 @@
-# pg-formatter-ts
+![pg-formatter-ts logo](./assets/logo.png)
+
+# pg-formatter-ts [![npm](https://img.shields.io/npm/v/pg-formatter-ts.svg)](https://www.npmjs.com/package/pg-formatter-ts)
 
 `pg-formatter-ts` is a TypeScript library that wraps the pgFormatter CLI tool for formatting PostgreSQL SQL code.  
 With a simple and easy-to-use API, it provides the ability to format SQL code programmatically with various formatting options.

@@ -5,6 +5,18 @@
     "main": "dist/pgFormatter.js",
     "types": "dist/pgFormatter.d.ts",
     "repository": "git@github.com:nightvisi0n/pg-formatter-ts.git",
+    "keywords": [
+        "typescript",
+        "sql",
+        "postgresql",
+        "pgformatter",
+        "sql-formatting",
+        "code-formatting",
+        "cli-wrapper",
+        "database-tools",
+        "open-source",
+        "query-optimization"
+    ],
     "author": "Julian Neureuther <dev@jneureuther.de>",
     "license": "MIT",
     "scripts": {

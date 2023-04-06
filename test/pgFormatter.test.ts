@@ -107,4 +107,13 @@ WHERE
         const result = await format(inputSQL, options);
         expect(result).toBe(expectedOutputSQL);
     });
+
+    test("should reject if an error occurs", async () => {
+        const inputSQL = "SELECT * FROM table WHERE id=1;";
+
+        // Pass an invalid option value
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const options: PgFormatOptions = { keywordCase: "invalid-case" as any };
+        await expect(format(inputSQL, options)).rejects.toThrow();
+    });
 });

@@ -19,7 +19,9 @@ export function buildArguments(options: PgFormatOptions): string[] {
             const option = `--${kebabCaseKey}`;
 
             if (typeof value === "boolean") {
-                args.push(option);
+                if (value) {
+                    args.push(option);
+                }
             } else {
                 args.push(option, value.toString());
             }

@@ -55,5 +55,23 @@ describe("Utils", () => {
 
             expect(args).toEqual(["--keyword-case", "2", "--spaces", "2"]);
         });
+
+        test("should handle boolean options correctly", () => {
+            const optionsWithTrue: PgFormatOptions = {
+                nocomment: true,
+                wrapLimit: 80,
+            };
+
+            const optionsWithFalse: PgFormatOptions = {
+                nocomment: false,
+                wrapLimit: 80,
+            };
+
+            const argsWithTrue = buildArguments(optionsWithTrue);
+            const argsWithFalse = buildArguments(optionsWithFalse);
+
+            expect(argsWithTrue).toContain("--nocomment");
+            expect(argsWithFalse).not.toContain("--nocomment");
+        });
     });
 });
